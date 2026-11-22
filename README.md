@@ -75,36 +75,3 @@ Se a taxa mensal for zero, VF é a soma dos aportes.
 Retorno anual ponderado:
 
     Rp = soma(peso_j * retorno_j)
-
-## Premissas e limitações
-- Taxas e classificações de risco são hipóteses informadas pelo usuário.
-- A taxa anual é interpretada como efetiva e convertida para taxa mensal equivalente.
-- Aportes mensais são considerados no fim do mês.
-- As taxas são mantidas constantes durante a projeção.
-- Não são considerados impostos, tarifas, inflação, liquidez ou oscilações reais.
-- O risco é apenas uma classificação qualitativa; não há cálculo de volatilidade.
-- A taxa ponderada é uma aproximação didática. Uma carteira real pode depender
-  de rebalanceamento, correlações, custos e trajetórias variáveis dos ativos.
-- A aplicação não acessa dados de mercado e não constitui recomendação financeira.
-
-## Critérios do trabalho
-| Critério | Implementação |
-|---|---|
-| Execução | Aplicação desktop em Python/Tkinter |
-| Captura de dados | Campos e cadastro de alternativas |
-| Código comentado | Comentários e documentação das funções |
-| Relatórios | Arquivos CSV e relatório HTML |
-
-## Sugestão de demonstração
-1. Execute `python app.py`.
-2. Mostre as três alternativas iniciais.
-3. Explique a alocação total de 100%.
-4. Calcule e explique os indicadores.
-5. Altere uma taxa ou o prazo e recalcule.
-6. Teste a validação de alocações incorretas.
-7. Exporte os relatórios CSV e HTML.
-
-## Divisão sugerida da dupla
-- Integrante 1: explicar as fórmulas financeiras e os juros compostos.
-- Integrante 2: explicar a interface, validação e geração dos relatórios.
-- Ambos: revisar o código e ensaiar a execução.
