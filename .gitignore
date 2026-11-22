@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# Relatórios gerados pelo aplicativo
+evolucao_investimento.csv
+comparacao_investimentos.csv
+relatorio_gestao_investimentos.html
